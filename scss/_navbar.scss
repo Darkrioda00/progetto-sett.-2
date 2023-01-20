@@ -1,0 +1,32 @@
+.navbar{
+    .nav-item a{
+        color: $colore-primario;
+        font-size: $font-primario;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        font-size: $font-primario;
+        color: $colore-primario;
+    }
+    
+}
+.icone{
+    color: $colore-primario;
+    display: flex;
+    align-items: center;
+    i{
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    @media screen and (min-width:992px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// .form{
+//     @media screen and (min-width:992px) {
+//         display: flex;
+//         justify-content: center;
+        
+//     }
+// }

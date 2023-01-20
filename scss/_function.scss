@@ -1,0 +1,8 @@
+@function color-for-background($background-color) {
+    @return (lightness($background-color) > 50%) ? #000000 : #ffffff;
+}
+.example {
+    background-color: #F5A623;
+    color: color-for-background(#F5A623);
+  
+}

@@ -1,0 +1,19 @@
+.button{
+    border-radius: 40px;
+    background-color: $colore-primario;
+    text-decoration: none;
+    padding: 0;
+    cursor: pointer;
+    padding: 12px 48px;
+    text-align: center;
+    display: inline-block;
+    color: $colore-secondario;
+    &:hover {
+        background-color: #3b1309; 
+        }
+    font: {
+        style: normal;
+        weight: 700;
+    }
+    
+}

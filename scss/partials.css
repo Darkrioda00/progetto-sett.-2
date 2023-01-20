@@ -1,0 +1,46 @@
+.navbar .nav-item a {
+  color: #4d1900;
+  font-size: 20px;
+}
+.navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .show > .nav-link {
+  font-size: 20px;
+  color: #4d1900;
+}
+
+.icone {
+  color: #4d1900;
+  display: flex;
+  align-items: center;
+}
+.icone i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+@media screen and (min-width: 992px) {
+  .icone {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.button {
+  border-radius: 40px;
+  background-color: #4d1900;
+  text-decoration: none;
+  padding: 0;
+  cursor: pointer;
+  padding: 12px 48px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(250, 247, 235);
+  font-style: normal;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: #3b1309;
+}
+
+body {
+  background-color: rgb(250, 247, 235);
+  font-family: "Titillium Web", sans-serif;
+}/*# sourceMappingURL=partials.css.map */
