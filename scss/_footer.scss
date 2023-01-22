@@ -1,0 +1,33 @@
+footer{
+    margin-top: 50px;
+    background-color: $colore-primario;
+    color: $colore-terziario;
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        .first-ul{
+            margin-top: 20px;
+        }
+        .bo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                margin-right: 10px;
+                a{
+                    color: $colore-terziario;
+                }
+            }
+            p{
+                display: inline-block;
+            }
+        }
+    }
+    
+}

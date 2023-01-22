@@ -1,4 +1,7 @@
 .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3000;
     .nav-item a{
         color: $colore-primario;
         font-size: $font-primario;

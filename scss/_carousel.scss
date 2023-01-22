@@ -1,0 +1,30 @@
+
+.carousel-inner{
+    h5{
+        color: $colore-primario;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    p{
+        color: $colore-primario;
+
+    }
+    .carosello-1{
+        background-image: url(/imgs/background.png.webp);
+        background-size: cover;
+    }
+    .carosello-2{
+        background-image: url(/imgs/IMG-box-2.png.webp);
+        background-size: cover;
+        img{
+            padding-bottom: 113px;
+        }
+    }
+    .carosello-3{
+        background-image: url(/imgs/scatta-la-felicita-2022-mobile1.png.webp);
+        background-size: cover;
+        img{
+            padding-bottom: 248px;
+        }
+    }
+}

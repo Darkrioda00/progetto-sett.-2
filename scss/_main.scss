@@ -1,0 +1,15 @@
+.hero-section{
+    background-image: url(/imgs/hero-desktop_millie.png);
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 540px;
+    padding-left: 20%;
+    padding-right: 30px;
+    padding-top: 350px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: -40px;
+}
